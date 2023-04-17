@@ -738,6 +738,11 @@
     path-to-regexp "3.2.0"
     tslib "2.5.0"
 
+"@nestjs/mapped-types@*":
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/@nestjs/mapped-types/-/mapped-types-1.2.2.tgz#d9ddb143776e309dbc1a518ac1607fddac1e140e"
+  integrity sha512-3dHxLXs3M0GPiriAcCFFJQHoDFUuzTD5w6JDhE7TyfT89YKpe6tcCCIqOZWdXmt9AZjjK30RkHRSFF+QEnWFQg==
+
 "@nestjs/platform-express@^9.0.0":
   version "9.4.0"
   resolved "https://registry.yarnpkg.com/@nestjs/platform-express/-/platform-express-9.4.0.tgz#e1f9e6c60cdd8d7889abbc6a04ab95279976175b"
@@ -918,7 +923,7 @@
     "@types/qs" "*"
     "@types/range-parser" "*"
 
-"@types/express@^4.17.13":
+"@types/express@^4.17.17":
   version "4.17.17"
   resolved "https://registry.yarnpkg.com/@types/express/-/express-4.17.17.tgz#01d5437f6ef9cfa8668e616e13c2f2ac9a491ae4"
   integrity sha512-Q4FmmuLGBG58btUnfS1c1r/NQdlp3DMfGDGig8WhfpA2YRUtEkxAjkZb0yvplJGYdF1fsQ81iMDcH24sSCNC/Q==
