@@ -1,0 +1,19 @@
+type User {
+  id: Int!
+  email: String
+  name: String
+  posts: [Post]
+}
+
+type Post {
+  id: Int!
+  name: String
+}
+
+type Query {
+  user(id: Int!): User
+}
+
+type Mutation {
+  updateUser(id: Int!): Post
+}

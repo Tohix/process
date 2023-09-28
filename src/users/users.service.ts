@@ -5,20 +5,20 @@ import {IUser} from "../interfaces/user";
 export class UsersService {
     private readonly users: IUser[] = [
         {
-            userId: 1,
-            username: 'anton',
-            password: '1111',
+            id: 1,
+            name: 'anton',
+            email: 'test@gmail.com',
         },
         {
-            userId: 2,
-            username: 'maria',
-            password: 'guess',
+            id: 2,
+            name: 'maria',
+            email: 'test1@gmail.com',
         },
     ];
 
 
-    async findOne(username: string): Promise<IUser | undefined> {
-        return this.users.find(user => user.username === username);
+    async findOne(id: number): Promise<IUser | undefined> {
+        return this.users.find(user => user.id === id);
     }
 
     create(user: IUser): void {
